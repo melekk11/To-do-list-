@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', sans-serif;  
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 0, 0));
+}
+.container{
+  max-width: 900px;
+  max-height: 800vh;
+  margin-top: 30px;
+}
+.card{
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+    margin: 50px , 0px ;
+    background: rgba(0, 0, 0, .6);
+    color: azure;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5) ;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.card::-webkit-scrollbar{
+  width: 6px;
+  background-color:transparent;
+}
+.card::-webkit-scrollbar-thumb{
+  background-color:rgba(255, 255, 255, .1) ;
+  border-radius: 6px;
+}
+.card-header p{
+  border-bottom: 1px white solid;
+}
+.card-input{
+ display: flex;
+ align-items: center;
+ padding: 10px, 5px;
+ height: 40px;
+ background: rgba(255, 255, 255, .1);
+ border-radius: 5px;
+ border: none;
+}
+.card-input input{
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: rgb(254, 254, 254);
+}
+#button{
+margin-right: 9px;
+width: 40px;
+height: 25px;
+background-color: rgba(255, 255, 255, .1);
+color: white;
+border: none;
+border-radius: 3px;
+}
+.card-input input:focus , .card-input button:focus{
+  outline: 0;
+}
+.card-content li{
+margin: 10px;
+padding: 5px;  
+background-color: rgba(255, 255, 255, .1);
+border-radius: 5px;
+flex-grow: 1;
+}
+.paragraf{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  padding: 2px;
+  background:  rgba(255, 255, 255, .1) ;
+  border-radius: 5px;
+}
+.sil{
+width: 30px;
+height: 25px;
+background-color: rgba(255, 255, 255, .1);
+color: white;
+border: none;
+border-radius: 3px;
+}
+.sil :hover{
+  border: 2px solid white;
+}
+.yapıldı{
+margin-right: 3px;
+width: 50px;
+height: 25px;
+background-color: rgba(255, 255, 255, .1);
+color: white;
+border: none;
+border-radius: 3px;
+}
+#clear{
+  width: 50px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, .1);
+  color: white;
+  border: none;
+  border-radius: 3px; 
+}
+.çiz{
+  text-decoration: line-through;
+}
